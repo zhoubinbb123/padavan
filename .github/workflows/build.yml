@@ -16,7 +16,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        target: [K2P, K2P-USB]
+        target: [JDCLOUD-RE-SP-01B]
         toolchain: [mipsel-linux-musl]
 
     steps:
